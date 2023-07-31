@@ -222,7 +222,7 @@ def login():
 		
 def login_lagi334():
 	try:
-		cetak(nel('Gunakan Cookie Yang Masih Fresh Kontol',width=90,style=f"bold white"))
+		cetak(nel('Gunakan Cookie Yang Masih Fresh Kontol',width=90,style=f"bold green"))
 		your_cookies = input(' ╰─  Masukan Cookie Tol : ')
 		with requests.Session() as r:
 			try:
